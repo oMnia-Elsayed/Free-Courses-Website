@@ -1,0 +1,81 @@
+/* Start Global */
+ *
+ {
+ 	padding: 0;
+ 	margin: 0;	
+ 	box-sizing: border-box;		
+}
+
+/* End Global */ 
+ 
+/* //////////////////////////////////////////////// */
+
+/* Start Header */
+
+/* End Header */ 
+
+/* //////////////////////////////////////////////// */
+.super_container
+{
+	width: 100%;	
+	display: flex;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+}
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.top_bar
+{
+	width: 100%;
+	height: 40px;
+	font-size: 15px;
+	line-height: 40px;
+	position: relative;
+	background-color:  #020031;
+	color: #FFFFFF;
+}
+.question
+{
+	
+	margin-left: 120px;
+	margin-right: 20px;
+	float: left;
+}
+.top_bar .message 
+{ 
+	height: 20px; 
+	margin-top: 10px; 
+	margin-right: 5px;
+	float: left;
+}
+.phone
+{
+	float: left;
+	margin-right: 20px;
+}
+
+.top_bar_login
+{
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 80%
+}
+.login_button
+{
+	width: 160px;
+	height: 100%;
+	background: #ccc7c1;
+	text-align: center;
+	color: #020031;
+	font-size: 18px;
+	text-decoration-line: underline;
+}
+
+
+
