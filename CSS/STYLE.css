@@ -27,9 +27,9 @@
 .top_bar
 {
 	width: 100%;
-	height: 40px;
+	height: 50px;
 	font-size: 15px;
-	line-height: 40px;
+	line-height: 50px;
 	background-color:  #262e45;
 	color: #FFFFFF;
 	position: relative;
@@ -43,7 +43,7 @@
 .top_bar .message 
 { 
 	height: 20px; 
-	margin-top: 10px; 
+	margin-top: 15px; 
 	margin-right: 5px;
 	float: left;
 }
@@ -64,11 +64,12 @@
 {
 	width: 160px;
 	height: 100%;
-	background: #878e98;
+	background: white;
 	text-align: center;
 	color: #020031;
 	font-size: 18px;
 	text-decoration-line: underline;
+	border-radius: 10px;
 }
 
 /* End Header */ 
@@ -100,7 +101,7 @@
 	line-height: 70px;
 	margin-right: 55px;
 	margin-top: 2px;	
-	font-size: 22px;
+	font-size: 25px;
 	color: #216778;
 }
 .active
@@ -123,7 +124,7 @@
 {
 	padding-top: 60px;
 	padding-bottom: 80px;
-	background-color: #ffffff;
+	background-color: #f8f8f8;
 	position: relative;
 }
 .title
@@ -142,7 +143,8 @@
 	display: flex;
 	display: inline-block;
 	position: relative;
-
+	margin-left: 70px;
+	margin-top: 60px;
 }
 .course_photo
 {
@@ -156,7 +158,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: 700;
-	color: #000000;
+	color: #262e45;
 	margin-left: 20px;
 	margin-top: 20px;
 }
@@ -217,3 +219,126 @@
 }
 /* End Courses Section */
 /* ////////////////////////////////////////////////////////////////////////// */
+.container2
+{
+	background-color: #ffffff;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	display: inline-block;
+	position: relative;
+	margin-left: 110px;
+	margin-top: 60px;
+}
+.instructors
+{
+	width: 100%;
+	padding-top: 88px;
+	padding-bottom: 30px;
+	background: #f8f8f8;
+}
+.instructors_background
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 567px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.instructor
+{
+	padding-top: 50px;
+	padding-bottom: 34px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.instructor_image_container
+{
+	width: 175px;
+	height: 175px;
+	border: solid 20px #FFFFFF;
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+	
+}
+.instructor_image_container img 
+{ 
+	border-radius: 100px;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+.instructor_name
+{
+	margin-top: 18px;
+	margin-left: 35px;
+	font-size: 25px;
+	font-weight: 500px;
+	color: #262e45;
+}
+.instructor_title
+{
+	font-size: 17px;
+	margin-left: 50px;
+	color: #7c8276;
+	margin-top: 5px;
+}
+.instructor_text
+{
+	margin-top: 16px;
+	text-align: justify;
+	color: #262e45;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.container3
+{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	display: inline-block;
+	position: relative;
+}
+.container3 h3 
+{
+	color: black;
+	margin-top: 90px;
+	margin-left: 100px;
+}
+.container3 p
+{
+	color: #262e45;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.newsletter input
+{
+	float: right;
+	margin-right: 190px;
+	width: 400px;
+	height: 50px;
+	margin-top: -50px;
+	background-color: white;
+	border-radius: 30px;
+	line-height: 40px;
+	padding-left: 15px;
+	border: none;
+	font-size: 15px;
+}
+.newsletter button
+{
+	float: right;
+	margin-right: 190px;
+	margin-top: -50px;
+	width: 130px;
+	height: 50px;
+	background-color: #232b3e;
+	border: none;
+	border-radius: 10px 40px 40px 10px;
+	color: white;
+}
